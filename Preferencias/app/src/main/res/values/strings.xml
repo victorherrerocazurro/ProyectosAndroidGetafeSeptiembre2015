@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Preferencias</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="default_prefijo">"Hola "</string>
+    <string name="default_sufijo">!!!</string>
+    <string name="title_activity_settings_automatico">SettingsAutomaticoActivity</string>
+
+    <string name="Rojo_value">FF0000</string>
+
+    <string-array name="colores_entries">
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Morado</item>
+    </string-array>
+    <string-array name="colores_entries_values">
+        <item>@string/Rojo_value</item>
+        <item>00FF00</item>
+        <item>0000FF</item>
+        <item>FF00FF</item>
+    </string-array>
+
+
+</resources>

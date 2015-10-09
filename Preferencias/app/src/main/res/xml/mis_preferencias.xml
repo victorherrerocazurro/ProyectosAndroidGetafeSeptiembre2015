@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:dialogTitle="Color"
+
+        android:key="color"
+        android:title="Color"
+        android:summary="Campo para establecer el color a emplear en la APP"
+        android:defaultValue="@string/Rojo_value"
+        android:entries="@array/colores_entries"
+        android:entryValues="@array/colores_entries_values">
+    </ListPreference>
+
+    <MultiSelectListPreference
+        android:dialogTitle="Colores"
+
+        android:key="colores"
+        android:title="Colores"
+        android:summary="Campo para establecer los colores a emplear en la APP"
+        android:defaultValue="@string/Rojo_value"
+        android:entries="@array/colores_entries"
+        android:entryValues="@array/colores_entries_values"
+        >
+
+    </MultiSelectListPreference>
+
+    <EditTextPreference
+        android:dialogTitle="prefijo"
+        android:title="prefijo"
+        android:key="prefijo" ></EditTextPreference>
+</PreferenceScreen>

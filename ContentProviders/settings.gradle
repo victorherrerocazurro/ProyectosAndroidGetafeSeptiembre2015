@@ -1,0 +1,1 @@
+include ':app', ':contratos', ':clientecontentprovider_contentresolver'

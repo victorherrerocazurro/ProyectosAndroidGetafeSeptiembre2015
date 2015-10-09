@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_leer_res"
+        android:title="Leer Res"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_escribir_memoria_interna"
+        android:title="Escribir Memoria Interna"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_leer_memoria_interna"
+        android:title="Leer Memoria Interna"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_escribir_memoria_sd"
+        android:title="Escribir Memoria SD"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_leer_memoria_sd"
+        android:title="Leer Memoria SD"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

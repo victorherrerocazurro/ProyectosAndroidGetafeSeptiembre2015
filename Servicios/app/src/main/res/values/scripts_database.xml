@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="createNoticia">CREATE TABLE [Noticia] (
+	[id]	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	[titulo]	TEXT NOT NULL,
+		[guid]	TEXT NOT NULL,
+		[autor]	TEXT NOT NULL,
+	[contenido]	TEXT NOT NULL,
+	[fecha]	TEXT NOT NULL
+	)</string>
+
+	<string name="createArticulo">CREATE TABLE [Articulo] (
+	[id]	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT
+	)</string>
+	<string name="createAutor">CREATE TABLE [Autor] (
+	[id]	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT
+	)</string>
+
+	<string-array name="scriptCreacion">
+		<item>@string/createNoticia</item>
+		<item>@string/createArticulo</item><!-- Añadido en la version 2-->
+		<item>@string/createAutor</item><!-- Añadido en la version 3-->
+	</string-array>
+
+	<string-array name="scriptActualizacion1_3">
+		<item>@string/createArticulo</item>
+		<item>@string/createAutor</item>
+	</string-array>
+
+	<string-array name="scriptActualizacion2_3">
+		<item>@string/createAutor</item>
+
+	</string-array>
+
+</resources>
